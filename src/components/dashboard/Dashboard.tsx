@@ -9,10 +9,7 @@ export default function Dashboard() {
                     Welcome to FinCat
                 </h1>
                 <a
-                    className="app-link"
-                    href="https://jira.deliveryhero.com/secure/RapidBoard.jspa?rapidView=5055"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                   
                 >
                     Fintech sprint board
                 </a>
