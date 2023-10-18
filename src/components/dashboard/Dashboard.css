@@ -1,0 +1,22 @@
+.dashboard-title{
+    color: rgba(26,32,44,1);
+    line-height: 4.5rem;
+    font-weight: 700;
+    font-size:3rem;
+
+}
+.app-link{
+        background-color: rgba(3,169,244,1);
+        margin: 4px;
+        padding: 1.5rem;
+        color: rgba(255,255,255,1);
+        border: none;
+        border-radius: 4px;
+        font-size: 1.25rem;
+        font-weight: 800;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover{
+            background-color: rgba(3,152,220,1) ;
+        }
+}

@@ -1,0 +1,19 @@
+.toolbar{
+    display: flex;
+    justify-content: end;
+}
+
+.buttonAction{
+    background-color: transparent;
+    margin: 4px;
+    padding: 0.5rem;
+    color:rgba(160,174,192,1);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    &:hover{
+        color:rgba(74,85,104,1);
+    }
+}

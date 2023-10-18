@@ -1,0 +1,51 @@
+.wrapper{
+    background-color: #7EC8E3;
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image:url("/src/fincat-logo.png") ;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    height: 100%;
+}
+.card-wrapper{
+    background-color: rgba(247,250,252,1);
+    border-radius: 12px;
+    padding: 64px 88px;
+    max-width: 560px;
+    min-height: 600px;
+    height: 55vh;
+}
+
+.card-logo{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    & img {
+        display: block;
+        width: 96px;
+    }
+}
+
+.card-title{
+    margin-bottom: 3rem;
+    color: rgba(26,32,44,1);
+    .title{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .text-brand{
+        color: #7EC8E3;
+    }
+
+    .subtitle{
+        font-size: 1.125rem;
+        padding-bottom: 1.5rem;
+        padding-top: 0.25rem;
+    }
+}

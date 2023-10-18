@@ -1,0 +1,65 @@
+.header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgba(45,55,72,1);
+    font-weight: 500;
+    font-size:1.25rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header img {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    display: block;
+    margin: 0 1rem 0 0;
+    margin-right: auto;
+}
+
+.header a.active {
+    color: rgba(3,169,244,1);
+    /*color: #fff; !* White text color for active tab *!*/
+}
+
+/* InnerTabs.css */
+.inner-tabs {
+    display: flex;
+    margin-top: 5px;
+}
+
+.inner-tabs a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #666;
+}
+
+.inner-tabs a.active {
+    font-weight: bold;
+    color: #7EC8E3;
+}
+
+.btn-logout{
+    background-color: transparent;
+    margin: 4px;
+    padding: 0.5rem;
+    color:rgba(160,174,192,1);
+    border: none;
+    &:hover{
+        color:rgba(74,85,104,1);
+    }
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.user-text{
+    font-size: 11px;
+}
